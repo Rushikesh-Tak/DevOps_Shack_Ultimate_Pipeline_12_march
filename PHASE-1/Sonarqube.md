@@ -41,7 +41,8 @@ Then, you can run the script using:
 ./install_docker.sh
 ```
 To provide all the other users permissin to execute docker commands you can use the following command.
-sudo chmod 666 /var/run/docker.sock
+
+**sudo chmod 666 /var/run/docker.sock**
 
 ## Create Sonarqube Docker container
 To run SonarQube in a Docker container with the provided command, you can follow these steps:
